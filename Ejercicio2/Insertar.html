@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insertar</title>
+</head>
+<body>
+	<h2>INSERTAR</h2>
+	<form method="post" action="Conectar.php">
+		<div><label>Agregar:</label>
+			<select name="agregar" id="agregar">
+			<option value="usuarios">Usuario</option>
+			<option value="clientes">Cliente</option>
+		</select></div>
+		<div><label>Nombre:</label></div>
+		<div><input type="text" name="nombre" id="nombre"></div>
+		<div><label>Correo:</label></div>
+		<div><input type="text" name="correo" id="correo"></div>
+		<div><label>Telefono:</label></div>
+		<div><input type="text" name="telefono" id="telefono"></div>
+		<div><label>Direccion:</label></div>
+		<div><textarea name="direccion" id="direccion"></textarea></div>
+		<dir><input type="submit" name="enviar" id="enviar"></dir>
+	</form>
+</body>
+</html>
